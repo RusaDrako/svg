@@ -1,0 +1,181 @@
+<svg width="600" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 250">
+
+
+	<linearGradient id="air_clock_body" y1="10%" y2="90%">
+		<stop stop-color="#000" offset="25%"/>
+		<stop stop-color="#555" offset="50%"/>
+		<stop stop-color="#000" offset="75%"/>
+	</linearGradient>
+
+
+	<rect width="100%" height="100%" fill="#777"/>
+	<polygon points="10,40 40,10 560,10 590,40 590,160 560,190 40,190 10,160" fill="url(#air_clock_body)" stroke-width="6" stroke="#eee"/>
+
+
+
+	<g fill="#fff" stroke-width="1" stroke="#fff" font-size="40" font-family="Arial" text-anchor="middle">
+		<text x="300" y="235">DigitalClock v1.0 © RD 2018</text>
+	</g>
+
+
+
+	<polygon id="led_hide" points="35,40 40,45 80,45 85,40 80,35 40,35"/>
+
+	<g transform="translate(0)">
+		<use id="h_1_h_1" x="0" y="0" xlink:href="#led_hide" />
+		<use id="h_1_v_1" x="0" y="0" xlink:href="#led_hide" transform="rotate(90 30 40)"/>
+		<use id="h_1_v_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(90 30 40)"/>
+		<use id="h_1_v_3" x="0" y="0" xlink:href="#led_hide" transform="rotate(270 90 40)"/>
+		<use id="h_1_v_4" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(270 90 40)"/>
+		<use id="h_1_h_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60)"/>
+		<use id="h_1_h_3" x="0" y="0" xlink:href="#led_hide" transform="translate(0 120)"/>
+	</g>
+
+	<g transform="translate(80)">
+		<use id="h_2_h_1" x="0" y="0" xlink:href="#led_hide"/>
+		<use id="h_2_v_1" x="0" y="0" xlink:href="#led_hide" transform="rotate(90 30 40)"/>
+		<use id="h_2_v_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(90 30 40)"/>
+		<use id="h_2_v_3" x="0" y="0" xlink:href="#led_hide" transform="rotate(270 90 40)"/>
+		<use id="h_2_v_4" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(270 90 40)"/>
+		<use id="h_2_h_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60)"/>
+		<use id="h_2_h_3" x="0" y="0" xlink:href="#led_hide" transform="translate(0 120)"/>
+	</g>
+
+	<g transform="translate(200)">
+		<use id="m_1_h_1" x="0" y="0" xlink:href="#led_hide"/>
+		<use id="m_1_v_1" x="0" y="0" xlink:href="#led_hide" transform="rotate(90 30 40)"/>
+		<use id="m_1_v_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(90 30 40)"/>
+		<use id="m_1_v_3" x="0" y="0" xlink:href="#led_hide" transform="rotate(270 90 40)"/>
+		<use id="m_1_v_4" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(270 90 40)"/>
+		<use id="m_1_h_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60)"/>
+		<use id="m_1_h_3" x="0" y="0" xlink:href="#led_hide" transform="translate(0 120)"/>
+	</g>
+
+	<g transform="translate(280)">
+		<use id="m_2_h_1" x="0" y="0" xlink:href="#led_hide"/>
+		<use id="m_2_v_1" x="0" y="0" xlink:href="#led_hide" transform="rotate(90 30 40)"/>
+		<use id="m_2_v_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(90 30 40)"/>
+		<use id="m_2_v_3" x="0" y="0" xlink:href="#led_hide" transform="rotate(270 90 40)"/>
+		<use id="m_2_v_4" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(270 90 40)"/>
+		<use id="m_2_h_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60)"/>
+		<use id="m_2_h_3" x="0" y="0" xlink:href="#led_hide" transform="translate(0 120)"/>
+	</g>
+
+	<g transform="translate(400)">
+		<use id="s_1_h_1" x="0" y="0" xlink:href="#led_hide"/>
+		<use id="s_1_v_1" x="0" y="0" xlink:href="#led_hide" transform="rotate(90 30 40)"/>
+		<use id="s_1_v_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(90 30 40)"/>
+		<use id="s_1_v_3" x="0" y="0" xlink:href="#led_hide" transform="rotate(270 90 40)"/>
+		<use id="s_1_v_4" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(270 90 40)"/>
+		<use id="s_1_h_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60)"/>
+		<use id="s_1_h_3" x="0" y="0" xlink:href="#led_hide" transform="translate(0 120)"/>
+	</g>
+
+	<g transform="translate(480)">
+		<use id="s_2_h_1" x="0" y="0" xlink:href="#led_hide"/>
+		<use id="s_2_v_1" x="0" y="0" xlink:href="#led_hide" transform="rotate(90 30 40)"/>
+		<use id="s_2_v_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(90 30 40)"/>
+		<use id="s_2_v_3" x="0" y="0" xlink:href="#led_hide" transform="rotate(270 90 40)"/>
+		<use id="s_2_v_4" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60) rotate(270 90 40)"/>
+		<use id="s_2_h_2" x="0" y="0" xlink:href="#led_hide" transform="translate(0 60)"/>
+		<use id="s_2_h_3" x="0" y="0" xlink:href="#led_hide" transform="translate(0 120)"/>
+	</g>
+
+	<script type="text/javascript">
+		function digital_clock_update() {
+			$_arr = ['h_1', 'h_2', 'h_3', 'v_1', 'v_2', 'v_3', 'v_4'];
+			$_c	= [
+				[1, 0, 1, 1, 1, 1, 1],
+				[0, 0, 0, 0, 0, 1, 1],
+				[1, 1, 1, 0, 1, 1, 0],
+				[1, 1, 1, 0, 0, 1, 1],
+				[0, 1, 0, 1, 0, 1, 1],
+				[1, 1, 1, 1, 0, 0, 1],
+				[1, 1, 1, 1, 1, 0, 1],
+				[1, 0, 0, 0, 0, 1, 1],
+				[1, 1, 1, 1, 1, 1, 1],
+				[1, 1, 1, 1, 0, 1, 1],
+			];
+			/* Получаем текущее время */
+			var date = new Date();
+			/* Получаем часы */
+			var hours = date.getHours();
+			/* Получаем минуты */
+			var minutes = date.getMinutes();
+			/* Получаем секунды */
+			var seconds = date.getSeconds();
+
+			var h_2 = hours % 10;
+			var h_1 = (hours - h_2) / 10;
+			var m_2 = minutes % 10;
+			var m_1 = (minutes - m_2) / 10;
+			var s_2 = seconds % 10;
+			var s_1 = (seconds - s_2) / 10;
+
+			document.getElementById("h_1_h_1").setAttribute("class", (($_c[h_1][0]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_1_h_2").setAttribute("class", (($_c[h_1][1]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_1_h_3").setAttribute("class", (($_c[h_1][2]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_1_v_1").setAttribute("class", (($_c[h_1][3]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_1_v_2").setAttribute("class", (($_c[h_1][4]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_1_v_3").setAttribute("class", (($_c[h_1][5]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_1_v_4").setAttribute("class", (($_c[h_1][6]) ? "clock_led" : "clock_led_hide"));
+
+			document.getElementById("h_2_h_1").setAttribute("class", (($_c[h_2][0]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_2_h_2").setAttribute("class", (($_c[h_2][1]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_2_h_3").setAttribute("class", (($_c[h_2][2]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_2_v_1").setAttribute("class", (($_c[h_2][3]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_2_v_2").setAttribute("class", (($_c[h_2][4]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_2_v_3").setAttribute("class", (($_c[h_2][5]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("h_2_v_4").setAttribute("class", (($_c[h_2][6]) ? "clock_led" : "clock_led_hide"));
+
+			document.getElementById("m_1_h_1").setAttribute("class", (($_c[m_1][0]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_1_h_2").setAttribute("class", (($_c[m_1][1]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_1_h_3").setAttribute("class", (($_c[m_1][2]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_1_v_1").setAttribute("class", (($_c[m_1][3]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_1_v_2").setAttribute("class", (($_c[m_1][4]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_1_v_3").setAttribute("class", (($_c[m_1][5]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_1_v_4").setAttribute("class", (($_c[m_1][6]) ? "clock_led" : "clock_led_hide"));
+
+			document.getElementById("m_2_h_1").setAttribute("class", (($_c[m_2][0]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_2_h_2").setAttribute("class", (($_c[m_2][1]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_2_h_3").setAttribute("class", (($_c[m_2][2]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_2_v_1").setAttribute("class", (($_c[m_2][3]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_2_v_2").setAttribute("class", (($_c[m_2][4]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_2_v_3").setAttribute("class", (($_c[m_2][5]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("m_2_v_4").setAttribute("class", (($_c[m_2][6]) ? "clock_led" : "clock_led_hide"));
+
+			document.getElementById("s_1_h_1").setAttribute("class", (($_c[s_1][0]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_1_h_2").setAttribute("class", (($_c[s_1][1]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_1_h_3").setAttribute("class", (($_c[s_1][2]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_1_v_1").setAttribute("class", (($_c[s_1][3]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_1_v_2").setAttribute("class", (($_c[s_1][4]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_1_v_3").setAttribute("class", (($_c[s_1][5]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_1_v_4").setAttribute("class", (($_c[s_1][6]) ? "clock_led" : "clock_led_hide"));
+
+			document.getElementById("s_2_h_1").setAttribute("class", (($_c[s_2][0]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_2_h_2").setAttribute("class", (($_c[s_2][1]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_2_h_3").setAttribute("class", (($_c[s_2][2]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_2_v_1").setAttribute("class", (($_c[s_2][3]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_2_v_2").setAttribute("class", (($_c[s_2][4]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_2_v_3").setAttribute("class", (($_c[s_2][5]) ? "clock_led" : "clock_led_hide"));
+			document.getElementById("s_2_v_4").setAttribute("class", (($_c[s_2][6]) ? "clock_led" : "clock_led_hide"));
+
+		}
+		/*Первоначальное выставление времени*/
+		digital_clock_update();
+		/* Вызов функции часов каждую секунду */
+		setInterval(digital_clock_update, 1000);
+	</script>
+	<style>
+		.clock_led {
+			fill: #0f0;
+			stroke: #0f0;
+			stroke-width: 3px;
+		}
+		.clock_led_hide {
+			fill: #040;
+			stroke: #444;
+			stroke-width: 3px;
+		}
+	</style>
+</svg>
