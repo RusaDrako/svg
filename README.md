@@ -31,10 +31,6 @@ AirClock_v2 - перемещение стрелок идёт за счёт js - 
 
 ![DigitalClock](https://raw.githubusercontent.com/RusaDrako/svg/master/DigitalClock/DigitalClock.jpg "DigitalClock")
 
-```html
-<object  width="400px" height="400px" data="AirClock_v2.svg" type="image/svg+xml"></object>
-```
-
 [:arrow_up: Оглавление](#Оглавление)
 
 [![Logo](https://avatars.githubusercontent.com/u/32844979?s=50 "RusaDrako")](https://github.com/RusaDrako/)
